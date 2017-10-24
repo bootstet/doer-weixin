@@ -1,0 +1,63 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='header'>
+    <view class='search-input'>
+      <view>{{addressDesc}}</view>
+    </view>
+    <view class='search-btn'>搜索</view>
+  </view>
+  <!-- <view class="result-container" hidden="{{hidden}}">
+    <scroll-view scroll-y="true" class="search-result-list" hidden="{{hidden}}">
+      <block wx:for="{{locationList}}" wx:key="">
+        <view class="search-result" bindtap="onTap" data-key="{{item.address}}">{{item.name}}
+          <view class="search-result-desc">{{item.address}}</view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+  <view class="getLocation" bindtap="getLocation">点击定位当前位置</view>
+  <view class="addLocation">新增收货地址
+    <view class="addLocation-icon">+</view>
+  </view>
+  <view class="myLocation">我的收货地址</view>
+  <view class="LocatonInfo"></view>
+  <view class="userTel"></view> -->
+  <!-- <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" 
+    circular="true">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="555" height="150" mode='widthFix' />
+      </swiper-item>
+    </block>
+  </swiper> -->
+  <view class='bar'>
+    <view>
+      <image src='./yexiao.png'></image>
+      <text>帮带饭</text>
+    </view>
+    <view>
+      <image src='./yexiao.png'></image>
+      <text>便利超市</text>
+    </view>
+    <view>
+      <image src='./yexiao.png'></image>
+      <text>特色夜宵</text>
+    </view>
+    <view>
+      <image src='./yexiao.png'></image>
+      <text>快递超市</text>
+    </view>
+    <view>
+      <image src='./yexiao.png'></image>
+      <text>拼团</text>
+    </view>
+  </view>
+  <view class='activity'>
+    <view class='left'>
+      <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg' mode='widthFix'></image>
+    </view>
+    <view class='right'>
+      <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg' mode='widthFix'></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<view class="container">
+	<view class="header">
+		<image class="avatar" src="{{userInfo.avatarUrl}}" wx:if="{{userInfo.avatarUrl}}" />
+		<view class="nickname">{{userInfo.nickName}}</view>
+	</view>
+	<view class="section">
+		<view class="line judgement">我的优惠券</view>
+		<view class="line judgement">我的地址薄</view>
+		<view class="line judgement">客服接口</view>
+	</view>
+	<view class="section">
+		<view class="exit">退出登录</view>
+	</view>
+</view>

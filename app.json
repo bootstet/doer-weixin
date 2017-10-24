@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/admin/admin"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#888888",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "做到Doer+",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#333333",
+    "backgroundColor": "#f6f6f6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/home-off.png",
+        "selectedIconPath": "image/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "image/order-off.png",
+        "selectedIconPath": "image/order-on.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/admin/admin",
+        "iconPath": "image/my-off.png",
+        "selectedIconPath": "image/my-on.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
